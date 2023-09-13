@@ -26,7 +26,7 @@ const blogController = {
       "base64"
     );
     //allocat random names
-    const imagePath = `${Date.now()}-${author}`;
+    const imagePath = `${Date.now()}-${author}.png`;
     //store locally
     try {
       fs.writeFileSync(`storage/${imagePath}`, buffer);

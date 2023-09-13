@@ -1,0 +1,63 @@
+.main {
+    padding-top: 10%; 
+    width: 100%;
+    overflow-x: auto;
+    font-family: Arial, sans-serif; /* Make sure a neutral font is used */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #f7f7f7;
+}
+
+td {
+    border: 1px solid #e0e0e0;
+    padding: 8px 12px;
+    text-align: center;
+    vertical-align: middle; /* Centers content vertically */
+}
+
+td img {
+    width: 24px; /* Width of the coin image */
+    height: 24px; /* Height of the coin image */
+    vertical-align: middle; /* Align image with text */
+    margin-right: 8px; /* Space between image and text */
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+thead td {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.positive {
+    color: green;
+    font-weight: bold; /* Make positive values bold for better differentiation */
+}
+
+.negative {
+    color: red;
+    font-weight: bold; /* Make negative values bold for better differentiation */
+}
+
+/* Responsive considerations for smaller screens, if needed */
+@media only screen and (max-width: 768px) {
+    td, th {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+}

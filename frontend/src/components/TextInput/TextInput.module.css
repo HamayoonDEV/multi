@@ -1,0 +1,23 @@
+.main{
+    width: 12rem;
+   
+}
+
+.main input {
+    height: 2rem;
+    width: 12rem;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main p{
+    color: red;
+    margin-left: 1rem;
+}

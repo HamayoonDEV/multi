@@ -1,0 +1,92 @@
+/* Styles for the main container */
+.main {
+    width: 100%;
+    padding: 2% 5%; /* Adjusted padding for better spacing */
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    margin-top: 5rem;
+}
+
+/* Main articles header */
+.main h1 {
+    font-size: 2rem; /* Bigger header */
+    margin-bottom: 1.5rem; /* Space before the articles */
+    color: #2c3e50; /* Slightly darker text for prominence */
+    text-align: center; /* Center the header */
+}
+
+/* Styles for the grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Styles for each card */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02); /* Subtle scale on hover for interactivity */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h1 {
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .main {
+      padding: 10px;
+    }
+
+    .grid {
+      gap: 15px; /* Little more gap than the original for better spacing */
+    }
+
+    .card img {
+      height: 120px; /* Adjusted for a better aspect ratio */
+    }
+
+    .card h1 {
+      font-size: 16px;
+      padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main h1 {
+        font-size: 1.5rem; /* Adjusting header font size for mobile */
+    }
+
+    .card {
+      border-radius: 4px;
+    }
+
+    .card img {
+      height: 100px; /* Adjusted for a better aspect ratio */
+    }
+
+    .card h1 {
+      font-size: 14px;
+      padding: 5px;
+    }
+}

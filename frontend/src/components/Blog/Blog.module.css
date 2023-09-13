@@ -1,0 +1,43 @@
+.main{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Assuming this is in Blog.module.css */
+
+/* Container for each card */
+.card{
+    width: 20rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem; /* Font size for the blog title */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+span {
+    display: block; /* Make the span block-level so it appears on its own line */
+    font-size: 0.8rem; /* Smaller font size for the date */
+    color: #777; /* Lighter color for the date for a more subtle appearance */
+    margin-bottom: 15px; /* Space below the date */
+}
+
+img {
+    width: 100%; /* Image will take up the full width of its container */
+    height: auto; /* Maintains image aspect ratio */
+    border-radius: 4px; /* Slightly rounded corners for the image */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+p {
+    font-size: 1rem; /* Font size for the blog content */
+    color: #333; /* Dark grey color for the text */
+    line-height: 1.5; /* Space between lines for better readability */
+}

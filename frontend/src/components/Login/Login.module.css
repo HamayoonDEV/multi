@@ -1,0 +1,62 @@
+.login{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.login h1{
+    color: #007BFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+.login > *{
+    margin: 0.8rem 0;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginbutton{
+    
+    height: 2rem;
+    width: 10rem;
+    color: white;
+    background-color: #46A049;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.loginbutton:hover{
+    color: white;
+    background-color: black;
+}
+
+.register{
+    
+    height: 2rem;
+    width: 6rem;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+.register:hover{
+    color: white;
+    background-color: black;
+}
+.button span{
+    color: #007BFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
